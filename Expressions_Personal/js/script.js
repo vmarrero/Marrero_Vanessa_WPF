@@ -39,3 +39,15 @@ alert(name + ", you consume " + yearlyBeerBottlesNumber + " bottles of beer a ye
 
 // This is reporting the number of beer bottles the user drinks per year to the console.  
 console.log(name + " consumes " + yearlyBeerBottlesNumber + " bottles of beer a year.");
+
+// This is prompting the user to answer how much a 12 pack of beer costs them and then captures the value.
+var beerPackOf12Price = prompt("How much does a 12 pack of beer cost you?");
+
+// This is calculating how much the user spends a year on beer bottles.
+var yearlyCostOfBeerBottles = yearlyBeerBottlesNumber / 12 * beerPackOf12Price;
+
+// This alerts the user to the amount they spend per year on beer bottles. The yearly cost has been fixed to only include 2 decimal places. 
+alert(name + ", you spend $" + yearlyCostOfBeerBottles.toFixed(2) + " per year on bottles of beer. \n\nCheers again!");
+
+// This reports to the console the amount the user spends a year on beer bottles. 
+console.log(name + " spends $" + yearlyCostOfBeerBottles.toFixed(2) + " a year on beer bottles.");
