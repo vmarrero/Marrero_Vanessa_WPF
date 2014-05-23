@@ -111,3 +111,14 @@ var orbitalPeriodSaturn = 29.4;
 var orbitalPeriodUranus = 83.7;
 var orbitalPeriodNeptune = 163.7;
 var orbitalPeriodPluto = 248.0;
+
+//These are the planetary ages calculations and capturing them into variables.
+var ageMercury = age / orbitalPeriodMercury;
+var ageVenus = age / orbitalPeriodVenus;
+var ageEarth = age / orbitalPeriodEarth;
+var ageMars = age / orbitalPeriodMars;
+var ageJupiter = age / orbitalPeriodJupiter;
+var ageSaturn = age / orbitalPeriodSaturn;
+var ageUranus = age / orbitalPeriodUranus;
+var ageNeptune = age / orbitalPeriodNeptune;
+var agePluto = age / orbitalPeriodPluto;
