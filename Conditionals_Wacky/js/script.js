@@ -122,3 +122,17 @@ var ageSaturn = age / orbitalPeriodSaturn;
 var ageUranus = age / orbitalPeriodUranus;
 var ageNeptune = age / orbitalPeriodNeptune;
 var agePluto = age / orbitalPeriodPluto;
+
+//This alerts the user to their planetary ages.
+alert("The following are your ages on each planet of our solar system: \n\nMercury: " + ageMercury.toFixed(1) + " years old \nVenus: " + ageVenus.toFixed(1) + " years old \nEarth: " + ageEarth.toFixed(1) + " years old \nMars: " + ageMars.toFixed(1) + " years old \nJupiter:  " + ageJupiter.toFixed(1) + " years old \nSaturn: " + ageSaturn.toFixed(1) + " years old \nUranus: " + ageUranus.toFixed(1) + " years old \nNeptune: " + ageNeptune.toFixed(1) + " years old \nPluto: " + agePluto.toFixed(1) + " years old \n\n*Note: Pluto is a dwarf planet and NASA still counts it!*");
+
+//This reports the user's planetary ages to the console. 
+console.log("The user's age on Mercury is " + ageMercury.toFixed(1) + " years old.");
+console.log("The user's age on Venus is " + ageVenus.toFixed(1) + " years old.");
+console.log("The user's age on Earth is " + ageEarth.toFixed(1) + " years old.");
+console.log("The user's age on Mars is " + ageMars.toFixed(1) + " years old.");
+console.log("The user's age on Jupiter is " + ageJupiter.toFixed(1) + " years old.");
+console.log("The user's age on Saturn is " + ageSaturn.toFixed(1) + " years old.");
+console.log("The user's age on Uranus is " + ageUranus.toFixed(1) + " years old.");
+console.log("The user's age on Neptune is " + ageNeptune.toFixed(1) + " years old.");
+console.log("The user's age on Pluto is " + agePluto.toFixed(1) + " years old. Pluto is a dwarf planet and is still counted by NASA!");
