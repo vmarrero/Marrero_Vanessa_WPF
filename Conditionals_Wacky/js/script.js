@@ -86,3 +86,15 @@ console.log("The user's weight on Saturn is " + weightSaturn.toFixed(1) + " poun
 console.log("The user's weight on Uranus is " + weightUranus.toFixed(1) + " pounds (lbs).");
 console.log("The user's weight on Neptune is " + weightNeptune.toFixed(1) + " pounds (lbs).");
 console.log("The user's weight on Pluto is " + weightPluto.toFixed(1) + " pounds (lbs). Pluto is a dwarf planet and is still counted by NASA! \n");
+
+// This is the message asking for and capturing the user's age.
+var age = prompt("Next, how many years old are you?");
+
+// The following validates the weight input by the user.
+while (isNaN(age) || age === null || age === "" || age === " ") {
+    alert("You need to input numbers for your age!");
+    var age = prompt("Please enter your age in years using numbers.");
+}
+
+//This reports the user's weight to the console. 
+console.log("The user's age is " + age + " years old. \n");
