@@ -48,3 +48,15 @@ while (isNaN(weight) || weight === null || weight === "" || weight === " ") {
 
 //This reports the user's weight to the console. 
 console.log("The user's weight is " + weight + " pounds (lbs).");
+
+// This is the message asking for and capturing the user's height.
+var height = prompt("Next, how tall are you in inches (in)?");
+
+// The following validates the height input by the user.
+while (isNaN(height) || height === null || height === "" || height === " ") {
+    alert("You need to input numbers for your height!");
+    var height = prompt("Please enter your height in inches (in) using numbers.");
+}
+
+//This reports the user's height to the console. 
+console.log("The user's height is " + height + " inches (in).");
