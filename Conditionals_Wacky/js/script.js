@@ -72,3 +72,17 @@ var weightSaturn = weight * surfaceGravitySaturn;
 var weightUranus = weight * surfaceGravityUranus;
 var weightNeptune = weight * surfaceGravityNeptune;
 var weightPluto = weight * surfaceGravityPluto;
+
+//This alerts the user to their planetary weights.
+alert("The following are your weights on each planet of our solar system: \n\nMercury: " + weightMercury.toFixed(1) + " pounds (lbs) \nVenus: " + weightVenus.toFixed(1) + " pounds (lbs) \nEarth: " + weightEarth.toFixed(1) + " pounds (lbs) \nMars: " + weightMars.toFixed(1) + " pounds (lbs) \nJupiter:  " + weightJupiter.toFixed(1) + " pounds (lbs) \nSaturn: " + weightSaturn.toFixed(1) + " pounds (lbs) \nUranus: " + weightUranus.toFixed(1) + " pounds (lbs) \nNeptune: " + weightNeptune.toFixed(1) + " pounds (lbs) \nPluto: " + weightPluto.toFixed(1) + " pounds (lbs) \n\n*Note: Pluto is a dwarf planet and NASA still counts it!*");
+
+//This reports the user's planetary weights to the console. 
+console.log("The user's weight on Mercury is " + weightMercury.toFixed(1) + " pounds (lbs).");
+console.log("The user's weight on Venus is " + weightVenus.toFixed(1) + " pounds (lbs).");
+console.log("The user's weight on Earth is " + weightEarth.toFixed(1) + " pounds (lbs).");
+console.log("The user's weight on Mars is " + weightMars.toFixed(1) + " pounds (lbs).");
+console.log("The user's weight on Jupiter is " + weightJupiter.toFixed(1) + " pounds (lbs).");
+console.log("The user's weight on Saturn is " + weightSaturn.toFixed(1) + " pounds (lbs).");
+console.log("The user's weight on Uranus is " + weightUranus.toFixed(1) + " pounds (lbs).");
+console.log("The user's weight on Neptune is " + weightNeptune.toFixed(1) + " pounds (lbs).");
+console.log("The user's weight on Pluto is " + weightPluto.toFixed(1) + " pounds (lbs). Pluto is a dwarf planet and is still counted by NASA! \n");
