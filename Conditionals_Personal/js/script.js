@@ -21,3 +21,18 @@ while (!isNaN(name) || name === null || name === "!" || name === "@" || name ===
     alert("You need to input letters for your name!");
     var name = prompt("Please enter your name using letters.");
 }
+
+//This reports the user's name to the console. 
+console.log("The user's name is " + name + ".");
+
+// This explains to the user what it is we are calculating.
+var explanation = "Thank you " + name + "! \n\nToday, we will be calculating your body mass index (BMI) in order to determine under which category your weight falls into - Underweight, Normal, Overweight, or Obese.";
+
+// This is the alert with the calculation explanation.
+alert(explanation);
+
+// This is explaining to the user what is body mass index.
+var bmiExplanation = "A person's body mass index is a measure of body fat based on an individual's height and weight. \n\nDoctors use BMI to determine the healthiness of an individual's weight.";
+
+// This is the alert with the bmi explanation.
+alert(bmiExplanation);
