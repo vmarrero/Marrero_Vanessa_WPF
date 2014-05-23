@@ -61,3 +61,14 @@ var surfaceGravitySaturn = 0.916;
 var surfaceGravityUranus = 0.889;
 var surfaceGravityNeptune = 1.12;
 var surfaceGravityPluto = 0.059;
+
+// These are the planetary weights calculations and capturing them into variables.
+var weightMercury = weight * surfaceGravityMercury;
+var weightVenus = weight * surfaceGravityVenus;
+var weightEarth = weight * surfaceGravityEarth;
+var weightMars = weight * surfaceGravityMars;
+var weightJupiter = weight * surfaceGravityJupiter;
+var weightSaturn = weight * surfaceGravitySaturn;
+var weightUranus = weight * surfaceGravityUranus;
+var weightNeptune = weight * surfaceGravityNeptune;
+var weightPluto = weight * surfaceGravityPluto;
