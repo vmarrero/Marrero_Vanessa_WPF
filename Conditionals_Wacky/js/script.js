@@ -48,3 +48,16 @@ while (isNaN(weight) || weight === null || weight === "" || weight === " ") {
 
 //This reports the user's weight to the console. 
 console.log("The user's weight is " + weight + " pounds (lbs). \n");
+
+//planetary weight is equal to earth weight in pounds times the planet's gravitational pull (surface gravity compared to earth's).
+
+//These are the planetary surface gravities. Values obtained fron NASA Planetary Fact Sheet.
+var surfaceGravityMercury = 0.378;
+var surfaceGravityVenus = 0.907;
+var surfaceGravityEarth = 1;
+var surfaceGravityMars = 0.377;
+var surfaceGravityJupiter = 2.36;
+var surfaceGravitySaturn = 0.916;
+var surfaceGravityUranus = 0.889;
+var surfaceGravityNeptune = 1.12;
+var surfaceGravityPluto = 0.059;
