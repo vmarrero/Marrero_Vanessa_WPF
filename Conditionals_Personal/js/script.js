@@ -60,3 +60,9 @@ while (isNaN(height) || height === null || height === "" || height === " ") {
 
 //This reports the user's height to the console. 
 console.log("The user's height is " + height + " inches (in).");
+
+// This is the BMI calculation and capturing it into a variable.
+var bmi = (weight / (height * height)) * 703;
+
+//This reports the user's BMI to the console. BMI has been fixed to only include up to 2 decimal places. 
+console.log("The user's body mass index (BMI) is " + bmi.toFixed(2) + ".");
