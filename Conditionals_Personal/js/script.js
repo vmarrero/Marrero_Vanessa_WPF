@@ -66,3 +66,18 @@ var bmi = (weight / (height * height)) * 703;
 
 //This reports the user's BMI to the console. BMI has been fixed to only include up to 2 decimal places. 
 console.log("The user's body mass index (BMI) is " + bmi.toFixed(2) + ".");
+
+// These are the BMI categories. Depending on the user's bmi, the appropriate message will be sent to the console and alerted to the user.
+if (bmi < 18.5) {
+    console.log("The user is considered underweight.");
+    alert("You are considered underweight. \n\nYou should probably bulk up a few pounds.");
+} else if (bmi < 25) {
+    console.log("The user is considered at a normal weight.");
+    alert("You are considered normal weight. \n\nYou should continue to maintain your weight.");
+} else if (bmi < 30) {
+    console.log("The user is considered overweight.");
+    alert("You are considered overweight. \n\nYou should work on losing a few pounds.");
+} else {
+    console.log("The user is considered obese.");
+    alert("You are considered obese. \n\nYou should consult with your physician on a diet and exercise plan.");
+}
