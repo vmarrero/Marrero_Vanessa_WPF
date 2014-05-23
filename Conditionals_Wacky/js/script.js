@@ -36,3 +36,15 @@ var explanation = "Thank you " + name + "! \n\nToday, we will be calculating how
 
 // This is the alert with the calculation explanation.
 alert(explanation);
+
+// This is the message asking for and capturing the user's weight.
+var weight = prompt("First, how many pounds (lbs) do you weigh?");
+
+// The following validates the weight input by the user.
+while (isNaN(weight) || weight === null || weight === "" || weight === " ") {
+    alert("You need to input numbers for your weight!");
+    var weight = prompt("Please enter your weight in pounds (lbs) using numbers.");
+}
+
+//This reports the user's weight to the console. 
+console.log("The user's weight is " + weight + " pounds (lbs). \n");
