@@ -98,3 +98,16 @@ while (isNaN(age) || age === null || age === "" || age === " ") {
 
 //This reports the user's weight to the console. 
 console.log("The user's age is " + age + " years old. \n");
+
+//planetary age is equal to earth age in years divided by the planet's period of revolution around the sun in earth years. 
+
+//These are the planetary orbital periods. Values obtained fron NASA Planetary Fact Sheet.
+var orbitalPeriodMercury = 0.241;
+var orbitalPeriodVenus = 0.615;
+var orbitalPeriodEarth = 1;
+var orbitalPeriodMars = 1.88;
+var orbitalPeriodJupiter = 11.9;
+var orbitalPeriodSaturn = 29.4;
+var orbitalPeriodUranus = 83.7;
+var orbitalPeriodNeptune = 163.7;
+var orbitalPeriodPluto = 248.0;
