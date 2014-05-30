@@ -33,3 +33,12 @@ var bmiExplain = n + ", a person's body mass index is a measure of body fat base
 
 // This is the alert with the explanation of bmi.
 alert(bmiExplain);
+
+// This is the message asking for and storing the user's weight.
+var w = prompt("How many pounds (lbs) do you weigh?");
+
+// The following validates the weight of the user.
+while (isNaN(w) || w < 1) {
+    alert("You need to put POSITIVE NUMBERS for your weight! \n\nYou CANNOT leave the box EMPTY or put 0 or negative numbers for your weight!");
+    var w = prompt("Enter your weight in pounds (lbs) using NUMBERS.");
+}
