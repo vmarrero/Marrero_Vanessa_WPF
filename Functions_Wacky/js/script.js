@@ -75,3 +75,15 @@ while (isNaN(a) || a < 1) {
 
 //This reports the user's age to the console. 
 console.log("The user's age is " + a + " years old.");
+
+// This is the message asking for and storing the user's planet of choice to figure out their planetary age.
+var whichPlanet2 = prompt("On which of the nine planets would you like to know what your age?\n\nMercury\nVenus\nEarth\nMars\nJupiter\nSaturn\nUranus\nNeptune\nPluto");
+
+// The following validates the planetary choice of the user.
+while (whichPlanet2 !== "Mercury" && whichPlanet2 !== "mercury" && whichPlanet2 !== "Venus" && whichPlanet2 !== "venus" && whichPlanet2 !== "Earth" && whichPlanet2 !== "earth" && whichPlanet2 !== "Mars" && whichPlanet2 !== "mars" && whichPlanet2 !== "Jupiter" && whichPlanet2 !== "jupiter" && whichPlanet2 !== "Saturn" && whichPlanet2 !== "saturn" && whichPlanet2 !== "Uranus" && whichPlanet2 !== "uranus" && whichPlanet2 !== "Neptune" && whichPlanet2 !== "neptune" && whichPlanet2 !== "Pluto" && whichPlanet2 !== "pluto") {
+    alert("You need to choose one of the nine planets!");
+    var whichPlanet2 = prompt("Choose one of the nine planet choices!");
+}
+
+//This reports the user's second planet to the console. 
+console.log("The user would like to know their age on " + whichPlanet2 + ".\n");
