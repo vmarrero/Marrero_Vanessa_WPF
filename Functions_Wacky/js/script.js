@@ -63,3 +63,15 @@ while (whichPlanet1 !== "Mercury" && whichPlanet1 !== "mercury" && whichPlanet1 
 
 //This reports the user's first chosen planet to the console. 
 console.log("The user would like to know what they weigh on " + whichPlanet1 + ".\n");
+
+// This is the message asking for and storing the user's age.
+var a = prompt("How many years old are you?");
+
+// The following validates the age of the user.
+while (isNaN(a) || a < 1) {
+    alert("You need to put POSITIVE NUMBERS for your age! \n\nYou CANNOT leave the box EMPTY or put 0 or negative numbers for your age!");
+    var a = prompt("Enter your age in years using NUMBERS.");
+}
+
+//This reports the user's age to the console. 
+console.log("The user's age is " + a + " years old.");
