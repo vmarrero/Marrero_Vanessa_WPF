@@ -30,3 +30,12 @@ while (!isNaN(n) || n < 1 || n === "!" || n === "@" || n === "#" || n === "$" ||
     alert("You need to put LETTERS for your name!");
     var n = prompt("Enter your name using LETTERS!");
 }
+
+//This reports the user's name to the console. 
+console.log("The user's name is " + n + ".\n");
+
+// This explains to the user what we are calculating.
+var explain = "Thank you " + n + "! \n\nToday, we're calculating how much you weigh on a planet of your choice in our solar system as well as how old you are on another planet of your choice within our solar system.\n\nYour choices do NOT have to be the same!";
+
+// This is the alert with the calculator explanation.
+alert(explain);
