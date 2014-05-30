@@ -15,3 +15,9 @@ var requestName = "First off, what is your name?";
 
 // This is storing the user's name from the prompt into a new variable.
 var n = prompt(requestName);
+
+// The following validates the name of the user.
+while (!isNaN(n) || n < 1 || n === "!" || n === "@" || n === "#" || n === "$" || n === "%" || n === "^" || n === "&" || n === "*" || n === "(" || n === ")" || n === "-" || n === "_" || n === "=" || n === "+" || n === "[" || n === "]" || n === "{" || n === "}" || n === "\\" || n === "|" || n === ";" || n === ":" || n === "'" || n === "\"" || n === "," || n === "<" || n === "." || n === ">" || n === "/" || n === "?" || n === "`" || n === "~") {
+    alert("You need to put LETTERS for your name!");
+    var n = prompt("Enter your name using LETTERS!");
+}
