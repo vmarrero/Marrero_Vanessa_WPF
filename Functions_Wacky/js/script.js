@@ -234,3 +234,15 @@ var weightResults = planetaryWeight(w);
 
 //This is calling the planetaryAge function and capturing the age of the corresponding planet chosen by the user in a new variable so that it can be used outside of the function.
 var ageResults = planetaryAge(a);
+
+//This reports to the user their weight on their planet of choice.
+alert(n + ", your weight on " + whichPlanet1 + " is " + weightResults.toFixed(1) + " lbs!");
+
+//This reports to the user their age on their planet of choice.
+alert(n + ", your age on " + whichPlanet2 + " is " + ageResults.toFixed(1) + " years old!");
+
+//This reports the user's planetary weight to the console. Planetary weight has been fixed to only include up to 1 decimal place. 
+console.log("The user's weight on " + whichPlanet1 + " is " + weightResults.toFixed(1) + ".");
+
+//This reports the user's planetary age to the console. Planetary age has been fixed to only include up to 1 decimal place. 
+console.log("The user's age on " + whichPlanet2 + " is " + ageResults.toFixed(1) + ".");
