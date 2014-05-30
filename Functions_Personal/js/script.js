@@ -51,3 +51,12 @@ while (isNaN(h) || h < 1) {
     alert("You need to put POSITIVE NUMBERS for your height! \n\nYou CANNOT leave the box EMPTY or put 0 or negative numbers for your height!");
     var h = prompt("Enter your height in inches (in) using NUMBERS.");
 }
+
+// This reports the user's name to the console. 
+console.log("The user's name is " + n + ".");
+    
+// This reports the user's weight to the console. 
+console.log("The user's weight is " + w + " pounds (lbs).");
+
+// This reports the user's height to the console. 
+console.log("The user's height is " + h + " inches (in).");
