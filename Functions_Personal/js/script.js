@@ -86,3 +86,9 @@ function bmi(name, weight, height) {
     return bmiResult;
   
 }
+
+//This is capturing the bmiResult in a new variable so that it can be used outside of the function. Also, is calling the function and sending 3 arguments to use with its given parameters.
+var results = bmi(n, w, h);
+
+//This reports the user's BMI to the console. BMI has been fixed to only include up to 2 decimal places. 
+console.log("The user's body mass index (BMI) is " + results.toFixed(2) + ".");
