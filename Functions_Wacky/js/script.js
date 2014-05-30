@@ -158,3 +158,73 @@ var planetaryWeight = function (weight) {
     }
     
 }
+
+//This is an anonymous function to figure out the user's planetary age.
+var planetaryAge = function (age) {
+//This function uses a set standard formula to figure out the desired information; it cannot be changed and still yield valid results.
+    
+//These are the planetary orbital periods. Values obtained fron NASA Planetary Fact Sheet.
+    var orbitalPeriodMercury = 0.241;
+    var orbitalPeriodVenus = 0.615;
+    var orbitalPeriodEarth = 1;
+    var orbitalPeriodMars = 1.88;
+    var orbitalPeriodJupiter = 11.9;
+    var orbitalPeriodSaturn = 29.4;
+    var orbitalPeriodUranus = 83.7;
+    var orbitalPeriodNeptune = 163.7;
+    var orbitalPeriodPluto = 248.0;
+    
+//This is the conditional if the user chooses Mercury.
+    if (whichPlanet2 === "Mercury" || whichPlanet2 === "mercury") {
+        var ageMercury = age / orbitalPeriodMercury;
+        return ageMercury;
+    }
+    
+//This is the conditional if the user chooses Venus.
+    if (whichPlanet2 === "Venus" || whichPlanet2 === "venus") {
+        var ageVenus = age / orbitalPeriodVenus;
+        return ageVenus;
+    }
+    
+//This is the conditional if the user chooses Earth.
+    if (whichPlanet2 === "Earth" || whichPlanet2 === "earth") {
+        var ageEarth = age / orbitalPeriodEarth;
+        return ageEarth;
+    }
+    
+//This is the conditional if the user chooses Mars.
+    if (whichPlanet2 === "Mars" || whichPlanet2 === "mars") {
+        var ageMars = age / orbitalPeriodMars;
+        return ageMars;
+    }
+    
+//This is the conditional if the user chooses Jupiter.
+    if (whichPlanet2 === "Jupiter" || whichPlanet2 === "jupiter") {
+        var ageJupiter = age / orbitalPeriodJupiter;
+        return ageJupiter;
+    }
+    
+//This is the conditional if the user chooses Saturn.
+    if (whichPlanet2 === "Saturn" || whichPlanet2 === "saturn") {
+        var ageSaturn = age / orbitalPeriodSaturn;
+        return ageSaturn;
+    }
+    
+//This is the conditional if the user chooses Uranus.
+    if (whichPlanet2 === "Uranus" || whichPlanet2 === "uranus") {
+        var ageUranus = age / orbitalPeriodUranus;
+        return ageUranus;
+    }
+    
+//This is the conditional if the user chooses Neptune.
+    if (whichPlanet2 === "Neptune" || whichPlanet2 === "neptune") {
+        var ageNeptune = age / orbitalPeriodNeptune;
+        return ageNeptune;
+    }
+    
+//This is the conditional if the user chooses Pluto.
+    if (whichPlanet2 === "Pluto" || whichPlanet2 === "pluto") {
+        var agePluto = age / orbitalPeriodPluto;
+        return agePluto;
+    }
+}
