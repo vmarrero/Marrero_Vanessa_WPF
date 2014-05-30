@@ -60,3 +60,26 @@ console.log("The user's weight is " + w + " pounds (lbs).");
 
 // This reports the user's height to the console. 
 console.log("The user's height is " + h + " inches (in).");
+
+// This is the bmi function with 3 given parameters.
+function bmi(name, weight, height) {
+    
+// This is calculating the bmi and storing it into a variable. This is the set standard formula; it cannot be changed.
+    var bmiResult = (weight / (height * height)) * 703;
+   
+//These are the weight classification for bmi. Depending on the user's bmi, the corresponding message will be sent to the console and alerted to the user.
+    if (bmiResult > 29.99) {
+        console.log("The user is considered obese.");
+        alert(name + ", you are considered obese. \n\nYou should consult with your physician on a diet and exercise plan.");
+    } else if (bmiResult > 24.99) {
+        console.log("The user is considered overweight.");
+        alert(name + ", you are considered overweight. \n\nYou should work on losing a few pounds.");
+    } else if (bmiResult > 18.49) {
+        console.log("The user is considered at a normal weight.");
+        alert(name + ", you are considered normal weight. \n\nYou should continue to maintain your weight.");
+    } else {
+        console.log("The user is considered underweight.");
+        alert(name + ", you are considered underweight. \n\nYou should probably bulk up a few pounds.");
+    }
+    
+}
