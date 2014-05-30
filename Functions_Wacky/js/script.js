@@ -228,3 +228,9 @@ var planetaryAge = function (age) {
         return agePluto;
     }
 }
+
+//This is calling the planetaryWeight function and capturing the weight of the corresponding planet chosen by the user in a new variable so that it can be used outside of the function.
+var weightResults = planetaryWeight(w);
+
+//This is calling the planetaryAge function and capturing the age of the corresponding planet chosen by the user in a new variable so that it can be used outside of the function.
+var ageResults = planetaryAge(a);
