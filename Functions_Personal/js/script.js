@@ -92,3 +92,6 @@ var results = bmi(n, w, h);
 
 //This reports the user's BMI to the console. BMI has been fixed to only include up to 2 decimal places. 
 console.log("The user's body mass index (BMI) is " + results.toFixed(2) + ".");
+
+//This alerts the user of their BMI. BMI has been fixed to only include up to 2 decimal places. 
+alert(n + ", your body mass index (BMI) is " + results.toFixed(2) + ".");
