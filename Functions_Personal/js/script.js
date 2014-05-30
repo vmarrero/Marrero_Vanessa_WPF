@@ -82,4 +82,7 @@ function bmi(name, weight, height) {
         alert(name + ", you are considered underweight. \n\nYou should probably bulk up a few pounds.");
     }
     
+//This is returning the bmiResult outside of the function.
+    return bmiResult;
+  
 }
