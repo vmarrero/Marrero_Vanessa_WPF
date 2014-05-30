@@ -87,3 +87,74 @@ while (whichPlanet2 !== "Mercury" && whichPlanet2 !== "mercury" && whichPlanet2 
 
 //This reports the user's second planet to the console. 
 console.log("The user would like to know their age on " + whichPlanet2 + ".\n");
+
+//This is an anonymous function to figure out the user's planetary weight.
+var planetaryWeight = function (weight) {
+//This function uses a set standard formula to figure out the desired information; it cannot be changed and still yield valid results.
+    
+//These are the planetary surface gravities. Values obtained fron NASA Planetary Fact Sheet.
+    var surfaceGravityMercury = 0.378;
+    var surfaceGravityVenus = 0.907;
+    var surfaceGravityEarth = 1;
+    var surfaceGravityMars = 0.377;
+    var surfaceGravityJupiter = 2.36;
+    var surfaceGravitySaturn = 0.916;
+    var surfaceGravityUranus = 0.889;
+    var surfaceGravityNeptune = 1.12;
+    var surfaceGravityPluto = 0.059;
+
+//This is the conditional if the user chooses Mercury.
+    if (whichPlanet1 === "Mercury" || whichPlanet1 === "mercury") {
+        var weightMercury = weight * surfaceGravityMercury;
+        return weightMercury;
+    }
+
+//This is the conditional if the user chooses Venus.
+    if (whichPlanet1 === "Venus" || whichPlanet1 === "venus") {
+        var weightVenus = weight * surfaceGravityVenus;
+        return weightVenus;
+    }
+
+//This is the conditional if the user chooses Earth.    
+    if (whichPlanet1 === "Earth" || whichPlanet1 === "earth") {
+        var weightEarth = weight * surfaceGravityEarth;
+        return weightEarth;
+    }
+    
+//This is the conditional if the user chooses Mars.
+    if (whichPlanet1 === "Mars" || whichPlanet1 === "mars") {
+        var weightMars = weight * surfaceGravityMars;
+        return weightMars;
+    }
+    
+//This is the conditional if the user chooses Jupiter.
+    if (whichPlanet1 === "Jupiter" || whichPlanet1 === "jupiter") {
+        var weightJupiter = weight * surfaceGravityJupiter;
+        return weightJupiter;
+    }
+    
+//This is the conditional if the user chooses Saturn.
+    if (whichPlanet1 === "Saturn" || whichPlanet1 === "saturn") {
+        var weightSaturn = weight * surfaceGravitySaturn;
+        return weightSaturn;
+    }
+    
+//This is the conditional if the user chooses Uranus.
+    if (whichPlanet1 === "Uranus" || whichPlanet1 === "uranus") {
+        var weightUranus = weight * surfaceGravityUranus;
+        return weightUranus;
+    }
+    
+//This is the conditional if the user chooses Neptune.
+    if (whichPlanet1 === "Neptune" || whichPlanet1 === "neptune") {
+        var weightNeptune = weight * surfaceGravityNeptune;
+        return weightNeptune;
+    }
+    
+//This is the conditional if the user chooses Pluto.
+    if (whichPlanet1 === "Pluto" || whichPlanet1 === "pluto") {
+        var weightPluto = weight * surfaceGravityPluto;
+        return weightPluto;
+    }
+    
+}
