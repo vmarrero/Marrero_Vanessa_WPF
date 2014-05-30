@@ -42,3 +42,12 @@ while (isNaN(w) || w < 1) {
     alert("You need to put POSITIVE NUMBERS for your weight! \n\nYou CANNOT leave the box EMPTY or put 0 or negative numbers for your weight!");
     var w = prompt("Enter your weight in pounds (lbs) using NUMBERS.");
 }
+
+// This is the message asking for and storing the user's height.
+var h = prompt("How tall are you in inches (in)?");
+
+// The following validates the height of the user.
+while (isNaN(h) || h < 1) {
+    alert("You need to put POSITIVE NUMBERS for your height! \n\nYou CANNOT leave the box EMPTY or put 0 or negative numbers for your height!");
+    var h = prompt("Enter your height in inches (in) using NUMBERS.");
+}
