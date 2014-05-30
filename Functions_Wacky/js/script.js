@@ -51,3 +51,15 @@ while (isNaN(w) || w < 1) {
 
 //This reports the user's weight to the console. 
 console.log("The user's weight is " + w + " pounds (lbs).");
+
+// This is the message asking for and storing the user's planet of choice to figure out their planetary weight.
+var whichPlanet1 = prompt("On which of the nine planets would you like to know what you weigh?\n\nMercury\nVenus\nEarth\nMars\nJupiter\nSaturn\nUranus\nNeptune\nPluto");
+
+// The following validates the planetary choice of the user.
+while (whichPlanet1 !== "Mercury" && whichPlanet1 !== "mercury" && whichPlanet1 !== "Venus" && whichPlanet1 !== "venus" && whichPlanet1 !== "Earth" && whichPlanet1 !== "earth" && whichPlanet1 !== "Mars" && whichPlanet1 !== "mars" && whichPlanet1 !== "Jupiter" && whichPlanet1 !== "jupiter" && whichPlanet1 !== "Saturn" && whichPlanet1 !== "saturn" && whichPlanet1 !== "Uranus" && whichPlanet1 !== "uranus" && whichPlanet1 !== "Neptune" && whichPlanet1 !== "neptune" && whichPlanet1 !== "Pluto" && whichPlanet1 !== "pluto") {
+    alert("You need to choose one of the nine planets!");
+    var whichPlanet1 = prompt("Choose one of the nine planet choices!");
+}
+
+//This reports the user's first chosen planet to the console. 
+console.log("The user would like to know what they weigh on " + whichPlanet1 + ".\n");
